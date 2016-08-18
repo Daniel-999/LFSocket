@@ -24,16 +24,16 @@
 /* Begin PBXBuildFile section */
 		C09485FE1D631B6B00748C0B /* LFSocketIOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C09485FD1D631B6B00748C0B /* LFSocketIOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C094860E1D631BA400748C0B /* SRWebSocketKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C094860B1D631B8500748C0B /* SRWebSocketKit.framework */; };
-		C094861A1D631BB100748C0B /* SocketIO.h in Headers */ = {isa = PBXBuildFile; fileRef = C094860F1D631BB100748C0B /* SocketIO.h */; };
+		C094861A1D631BB100748C0B /* SocketIO.h in Headers */ = {isa = PBXBuildFile; fileRef = C094860F1D631BB100748C0B /* SocketIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C094861B1D631BB100748C0B /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = C09486101D631BB100748C0B /* SocketIO.m */; };
-		C094861C1D631BB100748C0B /* SocketIOJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C09486111D631BB100748C0B /* SocketIOJSONSerialization.h */; };
+		C094861C1D631BB100748C0B /* SocketIOJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C09486111D631BB100748C0B /* SocketIOJSONSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C094861D1D631BB100748C0B /* SocketIOJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C09486121D631BB100748C0B /* SocketIOJSONSerialization.m */; };
-		C094861E1D631BB100748C0B /* SocketIOPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C09486131D631BB100748C0B /* SocketIOPacket.h */; };
+		C094861E1D631BB100748C0B /* SocketIOPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C09486131D631BB100748C0B /* SocketIOPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C094861F1D631BB100748C0B /* SocketIOPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C09486141D631BB100748C0B /* SocketIOPacket.m */; };
-		C09486201D631BB100748C0B /* SocketIOTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = C09486151D631BB100748C0B /* SocketIOTransport.h */; };
-		C09486211D631BB100748C0B /* SocketIOTransportWebsocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C09486161D631BB100748C0B /* SocketIOTransportWebsocket.h */; };
+		C09486201D631BB100748C0B /* SocketIOTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = C09486151D631BB100748C0B /* SocketIOTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09486211D631BB100748C0B /* SocketIOTransportWebsocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C09486161D631BB100748C0B /* SocketIOTransportWebsocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C09486221D631BB100748C0B /* SocketIOTransportWebsocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C09486171D631BB100748C0B /* SocketIOTransportWebsocket.m */; };
-		C09486231D631BB100748C0B /* SocketIOTransportXHR.h in Headers */ = {isa = PBXBuildFile; fileRef = C09486181D631BB100748C0B /* SocketIOTransportXHR.h */; };
+		C09486231D631BB100748C0B /* SocketIOTransportXHR.h in Headers */ = {isa = PBXBuildFile; fileRef = C09486181D631BB100748C0B /* SocketIOTransportXHR.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C09486241D631BB100748C0B /* SocketIOTransportXHR.m in Sources */ = {isa = PBXBuildFile; fileRef = C09486191D631BB100748C0B /* SocketIOTransportXHR.m */; };
 /* End PBXBuildFile section */
 
@@ -442,6 +442,7 @@
 				C09486041D631B6B00748C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C09486261D631DA300748C0B /* Build configuration list for PBXAggregateTarget "LFScoketIOKit-universal" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +451,7 @@
 				C09486281D631DA300748C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
