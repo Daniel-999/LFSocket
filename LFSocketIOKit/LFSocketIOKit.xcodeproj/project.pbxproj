@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		C09486251D631DA300748C0B /* LFScoketIOKit-universal */ = {
+		C02663761D6B270800492242 /* LFScoketIOKit-universal */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C09486261D631DA300748C0B /* Build configuration list for PBXAggregateTarget "LFScoketIOKit-universal" */;
+			buildConfigurationList = C02663771D6B270800492242 /* Build configuration list for PBXAggregateTarget "LFScoketIOKit-universal" */;
 			buildPhases = (
-				C094862D1D631DBB00748C0B /* ShellScript */,
+				C026637C1D6B271B00492242 /* ShellScript */,
 			);
 			dependencies = (
-				C094862C1D631DB900748C0B /* PBXTargetDependency */,
+				C026637B1D6B271500492242 /* PBXTargetDependency */,
 			);
 			name = "LFScoketIOKit-universal";
 			productName = "LFScoketIOKit-universal";
@@ -38,6 +38,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C026637A1D6B271500492242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C09485F11D631B6B00748C0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C09485F91D631B6B00748C0B;
+			remoteInfo = LFSocketIOKit;
+		};
 		C094860A1D631B8500748C0B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C09486051D631B8500748C0B /* SRWebSocketKit.xcodeproj */;
@@ -51,13 +58,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = C09485D91D631A3300748C0B;
 			remoteInfo = SRWebSocketKit;
-		};
-		C094862B1D631DB900748C0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C09485F11D631B6B00748C0B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C09485F91D631B6B00748C0B;
-			remoteInfo = LFSocketIOKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -184,10 +184,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = wangxiaoxiang;
 				TargetAttributes = {
-					C09485F91D631B6B00748C0B = {
+					C02663761D6B270800492242 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					C09486251D631DA300748C0B = {
+					C09485F91D631B6B00748C0B = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -211,7 +211,7 @@
 			projectRoot = "";
 			targets = (
 				C09485F91D631B6B00748C0B /* LFSocketIOKit */,
-				C09486251D631DA300748C0B /* LFScoketIOKit-universal */,
+				C02663761D6B270800492242 /* LFScoketIOKit-universal */,
 			);
 		};
 /* End PBXProject section */
@@ -237,7 +237,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C094862D1D631DBB00748C0B /* ShellScript */ = {
+		C026637C1D6B271B00492242 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,19 +268,33 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C026637B1D6B271500492242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C09485F91D631B6B00748C0B /* LFSocketIOKit */;
+			targetProxy = C026637A1D6B271500492242 /* PBXContainerItemProxy */;
+		};
 		C094860D1D631B9C00748C0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SRWebSocketKit;
 			targetProxy = C094860C1D631B9C00748C0B /* PBXContainerItemProxy */;
 		};
-		C094862C1D631DB900748C0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C09485F91D631B6B00748C0B /* LFSocketIOKit */;
-			targetProxy = C094862B1D631DB900748C0B /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		C02663781D6B270800492242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C02663791D6B270800492242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		C09486001D631B6B00748C0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -319,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -361,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,7 +394,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LFSocketIOKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LFSocketIOKit;
@@ -398,7 +412,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LFSocketIOKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LFSocketIOKit;
@@ -407,25 +421,17 @@
 			};
 			name = Release;
 		};
-		C09486271D631DA300748C0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACH_O_TYPE = staticlib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		C09486281D631DA300748C0B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACH_O_TYPE = staticlib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C02663771D6B270800492242 /* Build configuration list for PBXAggregateTarget "LFScoketIOKit-universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02663781D6B270800492242 /* Debug */,
+				C02663791D6B270800492242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C09485F41D631B6B00748C0B /* Build configuration list for PBXProject "LFSocketIOKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -440,15 +446,6 @@
 			buildConfigurations = (
 				C09486031D631B6B00748C0B /* Debug */,
 				C09486041D631B6B00748C0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C09486261D631DA300748C0B /* Build configuration list for PBXAggregateTarget "LFScoketIOKit-universal" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C09486271D631DA300748C0B /* Debug */,
-				C09486281D631DA300748C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
