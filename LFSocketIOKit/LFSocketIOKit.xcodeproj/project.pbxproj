@@ -22,8 +22,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		C02664401D6C793200492242 /* SRWebSocketKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C026643F1D6C793200492242 /* SRWebSocketKit.framework */; };
 		C09485FE1D631B6B00748C0B /* LFSocketIOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C09485FD1D631B6B00748C0B /* LFSocketIOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C094860E1D631BA400748C0B /* SRWebSocketKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C094860B1D631B8500748C0B /* SRWebSocketKit.framework */; };
 		C094861A1D631BB100748C0B /* SocketIO.h in Headers */ = {isa = PBXBuildFile; fileRef = C094860F1D631BB100748C0B /* SocketIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C094861B1D631BB100748C0B /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = C09486101D631BB100748C0B /* SocketIO.m */; };
 		C094861C1D631BB100748C0B /* SocketIOJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C09486111D631BB100748C0B /* SocketIOJSONSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,27 +45,13 @@
 			remoteGlobalIDString = C09485F91D631B6B00748C0B;
 			remoteInfo = LFSocketIOKit;
 		};
-		C094860A1D631B8500748C0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C09486051D631B8500748C0B /* SRWebSocketKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C09485DA1D631A3300748C0B;
-			remoteInfo = SRWebSocketKit;
-		};
-		C094860C1D631B9C00748C0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C09486051D631B8500748C0B /* SRWebSocketKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = C09485D91D631A3300748C0B;
-			remoteInfo = SRWebSocketKit;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C026643F1D6C793200492242 /* SRWebSocketKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SRWebSocketKit.framework; sourceTree = "<group>"; };
 		C09485FA1D631B6B00748C0B /* LFSocketIOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LFSocketIOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09485FD1D631B6B00748C0B /* LFSocketIOKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFSocketIOKit.h; sourceTree = "<group>"; };
 		C09485FF1D631B6B00748C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C09486051D631B8500748C0B /* SRWebSocketKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SRWebSocketKit.xcodeproj; path = ../SRWebSocketKit/SRWebSocketKit.xcodeproj; sourceTree = "<group>"; };
 		C094860F1D631BB100748C0B /* SocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIO.h; sourceTree = "<group>"; };
 		C09486101D631BB100748C0B /* SocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIO.m; sourceTree = "<group>"; };
 		C09486111D631BB100748C0B /* SocketIOJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOJSONSerialization.h; sourceTree = "<group>"; };
@@ -84,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C094860E1D631BA400748C0B /* SRWebSocketKit.framework in Frameworks */,
+				C02664401D6C793200492242 /* SRWebSocketKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +80,7 @@
 		C09485F01D631B6B00748C0B = {
 			isa = PBXGroup;
 			children = (
-				C09486051D631B8500748C0B /* SRWebSocketKit.xcodeproj */,
+				C026643F1D6C793200492242 /* SRWebSocketKit.framework */,
 				C09485FC1D631B6B00748C0B /* LFSocketIOKit */,
 				C09485FB1D631B6B00748C0B /* Products */,
 			);
@@ -126,14 +112,6 @@
 				C09485FF1D631B6B00748C0B /* Info.plist */,
 			);
 			path = LFSocketIOKit;
-			sourceTree = "<group>";
-		};
-		C09486061D631B8500748C0B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C094860B1D631B8500748C0B /* SRWebSocketKit.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +146,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				C094860D1D631B9C00748C0B /* PBXTargetDependency */,
 			);
 			name = LFSocketIOKit;
 			productName = LFSocketIOKit;
@@ -202,12 +179,6 @@
 			mainGroup = C09485F01D631B6B00748C0B;
 			productRefGroup = C09485FB1D631B6B00748C0B /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = C09486061D631B8500748C0B /* Products */;
-					ProjectRef = C09486051D631B8500748C0B /* SRWebSocketKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				C09485F91D631B6B00748C0B /* LFSocketIOKit */,
@@ -215,16 +186,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		C094860B1D631B8500748C0B /* SRWebSocketKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SRWebSocketKit.framework;
-			remoteRef = C094860A1D631B8500748C0B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C09485F81D631B6B00748C0B /* Resources */ = {
@@ -272,11 +233,6 @@
 			isa = PBXTargetDependency;
 			target = C09485F91D631B6B00748C0B /* LFSocketIOKit */;
 			targetProxy = C026637A1D6B271500492242 /* PBXContainerItemProxy */;
-		};
-		C094860D1D631B9C00748C0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SRWebSocketKit;
-			targetProxy = C094860C1D631B9C00748C0B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -392,6 +348,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LFSocketIOKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -410,6 +370,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LFSocketIOKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -431,6 +395,7 @@
 				C02663791D6B270800492242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C09485F41D631B6B00748C0B /* Build configuration list for PBXProject "LFSocketIOKit" */ = {
 			isa = XCConfigurationList;
